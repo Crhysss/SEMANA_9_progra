@@ -16,13 +16,16 @@ int main(){
     
     for(i = 0; i < y; i++){
         for(j = 0; j < x; j++){
-            //
+            //esta parte se encarga de que establecer el rango de los numeros random//
             matriz[i][j] = rand()%100;
             printf("%d ", matriz[i][j]);
         }
         
         printf("\n");
     }
+    /* esta parte es donde se se imprime ese matriz pero transpuesta
+    es decir, las filas se vuelven columnas
+    por eso se invirtieron las variables que guardaban las fila y columnas */
     printf("\nMatriz transpuesta:\n");
     for (j = 0; j < x; j++) {
         for (i = 0; i < y; i++) {
