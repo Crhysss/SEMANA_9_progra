@@ -27,7 +27,7 @@ int main(){
     }
     /* esta parte es donde se se imprime ese matriz pero transpuesta
     es decir, las filas se vuelven columnas
-    por eso se invirtieron las variables que guardaban las fila y columnas */
+    por eso se invirtieron las variables que guardaban las filas y columnas */
     printf("\nMatriz transpuesta:\n");
     for (j = 0; j < x; j++) {
         for (i = 0; i < y; i++) {
